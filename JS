@@ -1,0 +1,15 @@
+var meDiv = document.getElementById("hiddenDiv"); 
+var canSee = false;
+function changeDiv()
+{
+  if(canSee ==true)
+    { 
+      myDiv.style.display = "block";
+      canSee= false;
+    }
+  else
+    {
+      myDiv.style.display="none";
+      canSee = true;
+    }
+}
